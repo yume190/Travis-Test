@@ -1,10 +1,13 @@
-language: java
+language: node_js
 
-jdk:
-  - oraclejdk8
-  - oraclejdk7
-  - openjdk6
+node_js:
 
-os:
-  - linux
-  - osx
+  - '0.10'
+
+before_script:
+
+  - 'npm install -g grunt-cli'
+
+  - 'npm install -g bower'
+
+  - 'bower install'
