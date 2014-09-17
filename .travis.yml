@@ -1,7 +1,9 @@
 language: python
 python:
   - "2.7"
-script:
+install:
+  - pip install xmltodict
+#script:
   #- "pip install ."
   #- "pip install -r requirements.txt"
-  - pip install xmltodict
+  #- pip install xmltodict
