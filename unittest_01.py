@@ -14,7 +14,7 @@ import unittest
 class RomanNumeralConverterTest(unittest.TestCase):
     def test_parsing_millenia(self):
         value = RomanNumeralConverter("M")
-        self.assertEquals(1001, value.convert_to_decimal())
+        self.assertEquals(1000, value.convert_to_decimal())
 
     def test_parsing_century(self):
         value = RomanNumeralConverter("C")
