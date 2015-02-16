@@ -1,3 +1,4 @@
 image: python:2.7
-script: 
+script:
   - python unittest_01.py
+  - python unittest_02.py
